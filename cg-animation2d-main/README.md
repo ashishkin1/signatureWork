@@ -1,3 +1,8 @@
+This project was completed in my Computer Graphics class. We were learning all about animation and how to actualy code it. When running this code, you can adjust the total frames per second to allow for smoother animations.
+
+
+Below is the math and constructors we used in order to make this possible
+
 # 2D Transforms and Animation
 Starter code using the HTML5 Canvas API
 
