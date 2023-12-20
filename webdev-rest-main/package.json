@@ -1,0 +1,32 @@
+{
+    "name": "rest_server",
+    "description": "REST Server",
+    "version": "1.0.0",
+    "author": {
+        "name": "Brahima Ann",
+        "email": "ann05026@stthomas.edu"
+    },
+    "contributors": [
+        "Anthony Shishkin, Ridwan Nur"
+    ],
+    "repository": {},
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "all": "^0.0.0",
+        "aws-sdk": "^2.1521.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "mock-aws-s3": "^4.0.2",
+        "nock": "^13.4.0",
+        "sqlite3": "^5.1.6",
+        "vue": "^3.3.9"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.4.0",
+        "vite": "^4.4.11"
+    }
+}

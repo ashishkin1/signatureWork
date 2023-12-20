@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li>
+                <a href="index.html"><b>Home</b></a>
+            </li>
+                <li><a href="/about.html">About</a></li>
+          </ul>
+        </div>
+    </div>
+    <br/>
+    <h1 style="text-align: center; font-size: large;">About Us!</h1>
+    <br/>
+    <hr>
+    <br/>
+    <div class ="grid-x grid-padding-x">
+        <div class="cell large-4 medium-6 small-12">
+            <img src="IMG_3305.png" alt="Picture of Anthony Shishkin"/>
+            <br/>
+            <br/>
+            <p style="text-align: center;">Anthony Shishkin is a Senior at the University of St Thomas, finishing his Bachelors degree in Computer Science in December 2023. He enjoys snowboarding and making music in his free time. </p>
+        </div>
+        <br/>
+        <div class="cell large-4 medium-6 small-12">
+            <img src="IMG_9446.jpg" alt="Picture of Brahima Ann"/>
+            <br/>
+            <br/>
+            <p style="text-align: center;">Brahima Ann is currently a senior at the University of St. Thomas. In his freetime, he enjoys photography, going to the gym with his friends, and spending time with his family. </p>
+        </div>
+        <br/>
+        <div class="cell large-4 medium-6 small-12">
+            <img src="ridwan.jpeg" alt="Picture of Ridwa Nur"/>
+            <br/>
+            <br/>
+            <p style="text-align: center;">Ridwan Nur is currently a Senior at the University of St Thomas. He is 22 years old, from Bloomington, MN. His favorite hobby is to play Soccer and his favorite team is Arsenal FC.</p>
+        </div>
+    </div>
+    <br/>
+    <hr>
+    <br/>
+    <div class ="grid-x grid-padding-x">
+        <div class="cell medium-6 small-12">
+            <h4 style="text-align: center; font-size: large; font-weight: bold;">Description of the Frameworks & API we used:</h4>
+            <p style="text-align: center; font-weight: lighter; color: grey;"> A little description of each of the frameworks and api that we used to create the St Paul Crime Map application </p>
+            <h5 style="text-align: center; font-size: medium; font-weight: bold;">Leaflet</h5>
+            <p style="text-align: center; font-size: small;"> Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps. This library allows us to have a realtime map of the city where we can add markers and borders to show the outline of each neighborhood and entire city. This allowed us to physically visualize the data for the user to give them a better user experience.</p>
+            <h5 style="text-align: center; font-size: medium; font-weight: bold;">Vue</h5>
+            <p style="text-align: center; font-size: small;">Vue is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps in developing user interfaces. We used Vue for automating and programming everything you see on our website. Through Vue, we were able to connect our API and work with it in live to to populate tables and the map. We also used Vue to modify our database by sending requests back to our API.</p>
+            <h5 style="text-align: center; font-size: medium; font-weight: bold;">Our API</h5>
+            <p style="text-align: center; font-size: small;"> Our API is quite similar to others. We created our API for a project in our Web Development Class at University of St Thomas. Our API allows us to connect to our Database and request JSON objects back. Based on the URL path you input, you can either get incidents, add new crime incidents to our database or delete an incident based on the case number.</p>
+        </div>
+        <div class="cell medium-6 small-12">
+            <h5 style="text-align: center; font-size: large; font-weight: bold;">Video Tutorial:</h5>
+            <p style="color: gray; font-size: small; text-align: center;">We apologize for the bad audio quality, our recording software was struggling to pick up Brahima's voice for some reason.</p>
+            <br/>
+            <video width="720" controls>
+                <source src="recordingForVideo.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+              </video>
+        </div>
+    </div>
+    <br/>
+    <hr>
+    <br/>
+    <div class ="grid-x grid-padding-x row align-center">
+        <div class ="cell large-6">
+            <h5 style="text-align: center; font-size: large; font-weight: bold;">Interesting things we found using our application</h5>
+            <p style="text-align: center;"> The first thing we found super interesting was that Summit Hills had the least amount of crimes commited in all the neighborhoods!</p>
+            <p style="text-align: center;"> Capitol River (AKA Downtown St.Paul) had the most amount of crimes commited in the latest 1000 reported crimes.</p>
+            <p style="text-align: center;"> St Thomas University, located in Union Park had 74 out of the recent 1000 crimes reported there. That's 7.4%</p>
+            <p style="text-align: center;"> University Avenue falls directly inbetween neighborhoods 7 and 8. Because of this, some crime statistics could be skewed since the street is in both neighborhood.</p>
+            <p style="text-align: center;"> The Como neighborhood does not have as many reported crimes despite rumors of  Como being a "rough" place.</p>
+            <p style="text-align: center;"> Overall, the crime is quite evenly distrubted in St Paul. There are no major outliers in terms of crime.</p>
+        </div>
+    </div>
+
+
+
+</body>
