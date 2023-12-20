@@ -1,10 +1,10 @@
-This project was completed in my Computer Graphics class. We were learning all about animation and how to actualy code it. When running this code, you can adjust the total frames per second to allow for smoother animations.
+This project was completed in my Computer Graphics class. We were learning all about animation and how to actualy code it. When running this code, you can adjust the total frames per second to allow for smoother animations. The challenging thing about this project was trying to calculate where future pixels would be, drawing translating them through matrix multiplication and then drawing them once again
 
 In order to run this code, you need to either run it locally on your device, or create a new repository and have a webpage to go live with that.
 
 
 Below is the math and constructors we used in order to make this possible:
-
+(This was all attached to the README.md when dowloanding this repository initially)
 # 2D Transforms and Animation
 Starter code using the HTML5 Canvas API
 
